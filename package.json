@@ -1,0 +1,24 @@
+{
+  "name": "dojoCypress",
+  "version": "1.0.0",
+  "description": "Automação do Site Centauro em Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "relatorio": "npx cypress run --record --key 52a69eb3-3fd9-42e0-92a4-7bf7682c3102"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aledias48/dojoCypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aledias48/dojoCypress/issues"
+  },
+  "homepage": "https://github.com/aledias48/dojoCypress#readme",
+  "dependencies": {
+    "cypress": "^6.8.0"
+  }
+}
